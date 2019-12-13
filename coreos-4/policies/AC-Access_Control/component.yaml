@@ -110,7 +110,6 @@
         identity service. Automated mechanisms to support the management of
         information system accountsare the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(1) should be considered
@@ -147,7 +146,6 @@
         identity service. Automatic removal or disablement of temporary and
         emergency accounts after an organization-defined time period for each
         type of account is the responsibility of the centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(2) should be considered
@@ -160,7 +158,6 @@
         In such cases, CoreOS functionality to address AC-2(2) for local
         user management is under active development. Refer to the CoreOS
         Jira for up-to-date development progress.
-        
         https://jira.coreos.com/browse/CMP-200
 
 #
@@ -188,7 +185,6 @@
         identity service. Automaticlly disabling inactive accounts after
         an organization-defined time period is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(3) should be considered
@@ -201,7 +197,6 @@
         In such cases, CoreOS functionality to address AC-2(3) for local
         user management is under active development. Refer to the CoreOS
         Jira for up-to-date development progress.
-        
         https://jira.coreos.com/browse/CMP-201
 
 - control_key: AC-2 (4)
@@ -219,7 +214,6 @@
         enabling, disabling, and removal actions, and notification of
         organization-defined personnel or roles, is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(4) should be considered
@@ -232,6 +226,7 @@
         In such cases, CoreOS functionality to address AC-2(4) for local
         user management is under active development. Refer to the CoreOS
         Jira for up-to-date development progress.
+
         
         https://jira.coreos.com/browse/CMP-202
 
@@ -275,7 +270,6 @@
         information system access and privileges into roles reflects
         organizational process/procedures. AC-2(7) is outside the scope of
         component-level configuration guidane.
-        
         However, to assist customers in developing CoreOS-specific role-based
         access control schemes, a control response to AC-2(7)(a) is planned. Progress
         can be tracked via:
@@ -308,7 +302,6 @@
         identity service. Creation of organization-defined information
         system accounts dynamically is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(8) should be considered
@@ -329,7 +322,6 @@
         accounts reflects organizational process/procedures, technical
         implementation of such restrictions is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(9) should be considered
@@ -348,7 +340,6 @@
         identity service. Terminating shared/group account credentials
         when members leave the group is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(10) should be considered
@@ -369,7 +360,6 @@
         information system accounts reflects organizational process/procedures, technical
         enforcement of such restrictions is the responsibility of the
         centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(11) should be considered
@@ -390,7 +380,6 @@
         organization-defined atypical usage reflects organizational
         process/procedures, technical implementation of such restrictions is
         the responsibility of the centralized identity service.
-        
         To verify control inheritance, CoreOS system operators must demonstrate
         that CoreOS has been configured against a centralized identity service.
         When such evidence is validated, AC-2(9) should be considered
