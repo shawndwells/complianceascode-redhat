@@ -398,7 +398,8 @@
     - key: b
       text: |-
         Reporting atypical usage of information system accounts to
-        organization-defined 
+        organization-defined entities is outside the scope of
+        CoreOS configuration.
 
 - control_key: AC-2 (13)
   standard_key: NIST-800-53
